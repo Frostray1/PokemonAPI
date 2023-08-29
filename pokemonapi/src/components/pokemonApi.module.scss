@@ -1,0 +1,108 @@
+.pokemonWindow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.containerContent {
+    width: 980px;
+    max-width: 1280px;
+    padding: 0px 150px;
+    height: 585px;
+}
+
+.infoHeader {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    border: 1px solid #fff;
+    padding: 7px;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 112.682%;
+    text-transform: uppercase;
+}
+
+.instructionImg {
+    margin-left: auto;
+    height: 30px;
+}
+
+.instructionText {
+    margin-left: 10px;
+    width: 108px;
+    font-size: 12px;
+}
+
+.chipsContainer {
+    margin-top: 54px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+
+.pokemonList {
+    width: 484px;
+    display: flex;
+    align-items: center;
+
+    ul {
+        list-style: none;
+
+        li {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+            float: left;
+            margin: 0px 6px 10px 0px;
+            border-radius: 44px;
+            background: #1986EC;
+            padding: 20px;
+            cursor: pointer;
+        }
+    }
+
+}
+
+.pokemonDetailsContainer {
+    flex: 2;
+    padding: 44px;
+    background-color: black;
+}
+
+.pokemonСard {
+    h5 {
+        color: #A0A0A0;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+
+    img {
+        display: block;
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    p {
+        color: #A0A0A0;
+        font-size: 17px;
+        line-height: 150%;
+    }
+}
+
+.pokemonImage {
+    max-width: 100%;
+}
