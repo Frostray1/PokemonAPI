@@ -15,6 +15,7 @@ function PokemonApi() {
                 setPokemonList(response.data.results);
             } catch (error) {
                 console.error('Ошибка загрузки:', error);
+                console.log('123')
             }
         }
 
